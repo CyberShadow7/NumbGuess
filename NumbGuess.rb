@@ -68,10 +68,10 @@ end
 if time <= 50
   puts "Congratulations! You did it!"
   puts "You passed all of the levels :)"
-  puts "We are going to credit you a certificate of completion so we need your name and last name"
-  puts "What is your first name? You can change it if something is wrong later."
+  puts "We are going to credit you a certificate of completion so we need your first name and last name"
+  puts "What is your first name? You can change it, if something is wrong, later."
   fname = String(gets.chomp)
-  puts "What is your last name? You can change it if something is wrong later."
+  puts "What is your last name? You can change it, if something is wrong, later."
   lname = String(gets.chomp)
   puts "Are you #{fname} #{lname}? (y/n)"
   sure = String(gets.chomp)
